@@ -1,0 +1,56 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+1. Start
+
+2. Initialize variables:
+   - num1
+   - num2
+   - sum
+
+3. Read the value of num1
+4. Read the value of num2
+
+5. Calculate the sum of num1 and num2:
+   - sum = num1 + num2
+
+6. Display the value of sum
+
+7. Stop
+
+// Exercise 2: Check if a Number is Even or Odd
+
+// Function to check if a number is even or odd
+function checkEvenOrOdd(number):
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+// Example usage
+inputNumber = readIntegerFromUser()
+result = checkEvenOrOdd(inputNumber)
+print(result)
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+1. Initialize sum to 0
+2. Initialize minNumber and maxNumber to the first number entered
+3. Initialize count to 0
+4. Repeat the following steps 5 times:
+     a. Read a number from input and store it in variable number
+     b. Add number to sum
+     c. Increment count by 1
+     d. If number is smaller than minNumber, update minNumber
+     e. If number is greater than maxNumber, update maxNumber
+5. Calculate average by dividing sum by count
+6. Print "The average of the five numbers is " concatenated with the value of average
+7. Print "The smallest number entered is " concatenated with the value of minNumber
+8. Print "The largest number entered is " concatenated with the value of maxNumber
+
+-- END --
